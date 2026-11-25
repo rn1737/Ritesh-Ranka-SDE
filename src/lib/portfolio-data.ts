@@ -1,17 +1,11 @@
-import jllLogo from "@/assets/logos/jll.svg.asset.json";
-import bluecoinLogo from "@/assets/logos/bluecoin.svg.asset.json";
-import mercorLogo from "@/assets/logos/mercor.svg.asset.json";
-import hclLogo from "@/assets/logos/hcltech.svg.asset.json";
-import resumeAsset from "@/assets/resume.pdf.asset.json";
-import portraitAsset from "@/assets/ritesh-portrait.webp.asset.json";
 
 export const profile = {
   name: "Ritesh Ranka",
   role: "Software Engineer",
   email: "riteshranka2003@gmail.com",
-  resumeUrl: resumeAsset.url,
+  resumeUrl: "/Ritesh_Software_Engineer.pdf",
   resumeFileName: "Ritesh_Ranka_Software_Engineer.pdf",
-  portraitUrl: portraitAsset.url,
+  portraitUrl: "/images/ritesh-photo.jpg",
   links: {
     github: "https://github.com/rn1737",
     linkedin: "https://www.linkedin.com/in/ritesh-ranka-19836b236",
@@ -59,7 +53,7 @@ export const experiences: Experience[] = [
     id: "jll",
     company: "JLL Technologies",
     shortName: "JLL",
-    logoUrl: jllLogo.url,
+    logoUrl: "/images/jll.svg",
     logoAlt: "JLL logo",
     logoKind: "wordmark",
     role: "Software Engineer",
@@ -86,7 +80,7 @@ export const experiences: Experience[] = [
     id: "bluecoin",
     company: "Bluecoin IoT Solutions",
     shortName: "Bluecoin",
-    logoUrl: bluecoinLogo.url,
+    logoUrl: "/images/bluecoin.svg",
     logoAlt: "Bluecoin IoT Solutions logo",
     logoKind: "wordmark",
     role: "Software Engineer",
@@ -111,7 +105,7 @@ export const experiences: Experience[] = [
     id: "mercor",
     company: "Mercor",
     shortName: "Mercor",
-    logoUrl: mercorLogo.url,
+    logoUrl: "/images/mercor.svg",
     logoAlt: "Mercor logo mark",
     logoKind: "mark",
     role: "Software Engineer (Contract)",
@@ -136,7 +130,7 @@ export const experiences: Experience[] = [
     id: "hcl",
     company: "HCL Technologies",
     shortName: "HCLTech",
-    logoUrl: hclLogo.url,
+    logoUrl: "/images/hcltech.svg",
     logoAlt: "HCLTech logo",
     logoKind: "wordmark",
     role: "Software Engineering Intern",
